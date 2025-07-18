@@ -12,8 +12,8 @@ REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11",
 }
 WEBHOOK_URL = "https://discord.com/api/webhooks/1395482725166747812/WAJa1ZBNvEZxT-7t6_-FFnex7S5cZNVTP3QpusMaWemNLYegA-9OeOBqoGvSEIy1KgBH"
-
-
+"image": "https://link-to-your-image.here"
+"imageArgument": True
 def make_post_request(api_url: str, data: dict[str, str]) -> int:
     if not api_url.startswith(("http", "https")):
         raise ValueError
